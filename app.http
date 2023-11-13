@@ -1,0 +1,33 @@
+Get http://localhost:3000/players/
+Content-Type: application/json
+//API 1
+
+###
+GET http://localhost:3000/players/1/
+Content-Type: application/json
+//API 2
+
+###
+PUT  http://localhost:3000/players/1/
+Content-Type: application/json
+//API 3
+
+###
+GET http://localhost:3000/matches/1/
+Content-Type: application/json
+
+//API 4
+
+###
+GET  http://localhost:3000/players/1/matches/
+Content-Type: application/json
+//API 5
+###
+
+get http://localhost:3000/matches/3/players/
+Content-Type: application/json
+//API 6
+
+###
+GET http://localhost:3000/players/1/playerScores/
+Content-Type: application/jsonS
